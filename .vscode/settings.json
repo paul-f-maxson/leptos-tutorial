@@ -1,0 +1,10 @@
+{
+  "rust-analyzer.cargo.features": "all", // Enable all features
+  "rust-analyzer.procMacro.ignored": {
+    "leptos_macro": [
+      // optional:
+      // "component",
+      "server"
+    ],
+  }
+}
